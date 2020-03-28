@@ -9,7 +9,7 @@ const authRoutes = require('./routes/auth');
 app.use('/api', authRoutes);
 
 
-const port = process.env.port || 8001;
+const port = process.env.port || 3335;
 app.listen(port, () => {
     console.log(`API is running on port ${port}`);
 });
